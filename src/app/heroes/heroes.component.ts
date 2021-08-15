@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./heroes.component.sass']
 })
 export class HeroesComponent implements OnInit {
-
+  hero = 'Black Widow';
+  
   constructor() { }
 
   ngOnInit(): void {
